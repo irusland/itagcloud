@@ -11,7 +11,10 @@ import SwiftUI
 struct TagCloudApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack(
+                ContentView()
+            )
+            
         }
     }
 }

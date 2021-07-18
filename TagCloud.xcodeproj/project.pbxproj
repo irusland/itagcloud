@@ -46,6 +46,7 @@
 		9891255026A45ABD007E1245 /* TagCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9891255426A45ABD007E1245 /* TagCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudUITests.swift; sourceTree = "<group>"; };
 		9891255626A45ABD007E1245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9891256226A45F72007E1245 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		9891252A26A45AB9007E1245 = {
 			isa = PBXGroup;
 			children = (
+				9891256226A45F72007E1245 /* .gitignore */,
 				9891253526A45AB9007E1245 /* TagCloud */,
 				9891254826A45ABD007E1245 /* TagCloudTests */,
 				9891255326A45ABD007E1245 /* TagCloudUITests */,
