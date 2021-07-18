@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9891253726A45AB9007E1245 /* TagCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891253626A45AB9007E1245 /* TagCloudApp.swift */; };
+		9891253926A45AB9007E1245 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891253826A45AB9007E1245 /* ContentView.swift */; };
+		9891253B26A45ABD007E1245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9891253A26A45ABD007E1245 /* Assets.xcassets */; };
+		9891253E26A45ABD007E1245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9891253D26A45ABD007E1245 /* Preview Assets.xcassets */; };
+		9891254A26A45ABD007E1245 /* TagCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891254926A45ABD007E1245 /* TagCloudTests.swift */; };
+		9891255526A45ABD007E1245 /* TagCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891255426A45ABD007E1245 /* TagCloudUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9891254626A45ABD007E1245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9891252B26A45AB9007E1245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9891253226A45AB9007E1245;
+			remoteInfo = TagCloud;
+		};
+		9891255126A45ABD007E1245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9891252B26A45AB9007E1245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9891253226A45AB9007E1245;
+			remoteInfo = TagCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9891253326A45AB9007E1245 /* TagCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891253626A45AB9007E1245 /* TagCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudApp.swift; sourceTree = "<group>"; };
+		9891253826A45AB9007E1245 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9891253A26A45ABD007E1245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9891253D26A45ABD007E1245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9891253F26A45ABD007E1245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9891254026A45ABD007E1245 /* TagCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TagCloud.entitlements; sourceTree = "<group>"; };
+		9891254526A45ABD007E1245 /* TagCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891254926A45ABD007E1245 /* TagCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudTests.swift; sourceTree = "<group>"; };
+		9891254B26A45ABD007E1245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9891255026A45ABD007E1245 /* TagCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891255426A45ABD007E1245 /* TagCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudUITests.swift; sourceTree = "<group>"; };
+		9891255626A45ABD007E1245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9891253026A45AB9007E1245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891254226A45ABD007E1245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891254D26A45ABD007E1245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9891252A26A45AB9007E1245 = {
+			isa = PBXGroup;
+			children = (
+				9891253526A45AB9007E1245 /* TagCloud */,
+				9891254826A45ABD007E1245 /* TagCloudTests */,
+				9891255326A45ABD007E1245 /* TagCloudUITests */,
+				9891253426A45AB9007E1245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9891253426A45AB9007E1245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9891253326A45AB9007E1245 /* TagCloud.app */,
+				9891254526A45ABD007E1245 /* TagCloudTests.xctest */,
+				9891255026A45ABD007E1245 /* TagCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9891253526A45AB9007E1245 /* TagCloud */ = {
+			isa = PBXGroup;
+			children = (
+				9891253626A45AB9007E1245 /* TagCloudApp.swift */,
+				9891253826A45AB9007E1245 /* ContentView.swift */,
+				9891253A26A45ABD007E1245 /* Assets.xcassets */,
+				9891253F26A45ABD007E1245 /* Info.plist */,
+				9891254026A45ABD007E1245 /* TagCloud.entitlements */,
+				9891253C26A45ABD007E1245 /* Preview Content */,
+			);
+			path = TagCloud;
+			sourceTree = "<group>";
+		};
+		9891253C26A45ABD007E1245 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9891253D26A45ABD007E1245 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9891254826A45ABD007E1245 /* TagCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				9891254926A45ABD007E1245 /* TagCloudTests.swift */,
+				9891254B26A45ABD007E1245 /* Info.plist */,
+			);
+			path = TagCloudTests;
+			sourceTree = "<group>";
+		};
+		9891255326A45ABD007E1245 /* TagCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9891255426A45ABD007E1245 /* TagCloudUITests.swift */,
+				9891255626A45ABD007E1245 /* Info.plist */,
+			);
+			path = TagCloudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9891253226A45AB9007E1245 /* TagCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9891255926A45ABD007E1245 /* Build configuration list for PBXNativeTarget "TagCloud" */;
+			buildPhases = (
+				9891252F26A45AB9007E1245 /* Sources */,
+				9891253026A45AB9007E1245 /* Frameworks */,
+				9891253126A45AB9007E1245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagCloud;
+			productName = TagCloud;
+			productReference = 9891253326A45AB9007E1245 /* TagCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9891254426A45ABD007E1245 /* TagCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9891255C26A45ABD007E1245 /* Build configuration list for PBXNativeTarget "TagCloudTests" */;
+			buildPhases = (
+				9891254126A45ABD007E1245 /* Sources */,
+				9891254226A45ABD007E1245 /* Frameworks */,
+				9891254326A45ABD007E1245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9891254726A45ABD007E1245 /* PBXTargetDependency */,
+			);
+			name = TagCloudTests;
+			productName = TagCloudTests;
+			productReference = 9891254526A45ABD007E1245 /* TagCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9891254F26A45ABD007E1245 /* TagCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9891255F26A45ABD007E1245 /* Build configuration list for PBXNativeTarget "TagCloudUITests" */;
+			buildPhases = (
+				9891254C26A45ABD007E1245 /* Sources */,
+				9891254D26A45ABD007E1245 /* Frameworks */,
+				9891254E26A45ABD007E1245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9891255226A45ABD007E1245 /* PBXTargetDependency */,
+			);
+			name = TagCloudUITests;
+			productName = TagCloudUITests;
+			productReference = 9891255026A45ABD007E1245 /* TagCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9891252B26A45AB9007E1245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9891253226A45AB9007E1245 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9891254426A45ABD007E1245 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9891253226A45AB9007E1245;
+					};
+					9891254F26A45ABD007E1245 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9891253226A45AB9007E1245;
+					};
+				};
+			};
+			buildConfigurationList = 9891252E26A45AB9007E1245 /* Build configuration list for PBXProject "TagCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9891252A26A45AB9007E1245;
+			productRefGroup = 9891253426A45AB9007E1245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9891253226A45AB9007E1245 /* TagCloud */,
+				9891254426A45ABD007E1245 /* TagCloudTests */,
+				9891254F26A45ABD007E1245 /* TagCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9891253126A45AB9007E1245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9891253E26A45ABD007E1245 /* Preview Assets.xcassets in Resources */,
+				9891253B26A45ABD007E1245 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891254326A45ABD007E1245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891254E26A45ABD007E1245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9891252F26A45AB9007E1245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9891253926A45AB9007E1245 /* ContentView.swift in Sources */,
+				9891253726A45AB9007E1245 /* TagCloudApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891254126A45ABD007E1245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9891254A26A45ABD007E1245 /* TagCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891254C26A45ABD007E1245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9891255526A45ABD007E1245 /* TagCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9891254726A45ABD007E1245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9891253226A45AB9007E1245 /* TagCloud */;
+			targetProxy = 9891254626A45ABD007E1245 /* PBXContainerItemProxy */;
+		};
+		9891255226A45ABD007E1245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9891253226A45AB9007E1245 /* TagCloud */;
+			targetProxy = 9891255126A45ABD007E1245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9891255726A45ABD007E1245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9891255826A45ABD007E1245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9891255A26A45ABD007E1245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TagCloud/TagCloud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TagCloud/Preview Content\"";
+				DEVELOPMENT_TEAM = HLZGGTQFN5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TagCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irusland.TagCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9891255B26A45ABD007E1245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TagCloud/TagCloud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TagCloud/Preview Content\"";
+				DEVELOPMENT_TEAM = HLZGGTQFN5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TagCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irusland.TagCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9891255D26A45ABD007E1245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HLZGGTQFN5;
+				INFOPLIST_FILE = TagCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irusland.TagCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagCloud.app/Contents/MacOS/TagCloud";
+			};
+			name = Debug;
+		};
+		9891255E26A45ABD007E1245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HLZGGTQFN5;
+				INFOPLIST_FILE = TagCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irusland.TagCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagCloud.app/Contents/MacOS/TagCloud";
+			};
+			name = Release;
+		};
+		9891256026A45ABD007E1245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HLZGGTQFN5;
+				INFOPLIST_FILE = TagCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irusland.TagCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TagCloud;
+			};
+			name = Debug;
+		};
+		9891256126A45ABD007E1245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HLZGGTQFN5;
+				INFOPLIST_FILE = TagCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irusland.TagCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TagCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9891252E26A45AB9007E1245 /* Build configuration list for PBXProject "TagCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891255726A45ABD007E1245 /* Debug */,
+				9891255826A45ABD007E1245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891255926A45ABD007E1245 /* Build configuration list for PBXNativeTarget "TagCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891255A26A45ABD007E1245 /* Debug */,
+				9891255B26A45ABD007E1245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891255C26A45ABD007E1245 /* Build configuration list for PBXNativeTarget "TagCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891255D26A45ABD007E1245 /* Debug */,
+				9891255E26A45ABD007E1245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891255F26A45ABD007E1245 /* Build configuration list for PBXNativeTarget "TagCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891256026A45ABD007E1245 /* Debug */,
+				9891256126A45ABD007E1245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9891252B26A45AB9007E1245 /* Project object */;
+}
