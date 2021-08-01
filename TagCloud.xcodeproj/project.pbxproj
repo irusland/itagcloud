@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9876A50B26B68B5900356180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891253826A45AB9007E1245 /* ContentView.swift */; };
+		9876A50C26B68BDD00356180 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891256326A4619F007E1245 /* Counter.swift */; };
+		9876A50D26B68BDD00356180 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891256526A47B29007E1245 /* ProgressView.swift */; };
+		9876A50E26B68CA100356180 /* TagCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891253626A45AB9007E1245 /* TagCloudApp.swift */; };
+		9876A51226B719EB00356180 /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876A51126B719EB00356180 /* CloudViewController.swift */; };
+		9876A51326B71A4A00356180 /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876A51126B719EB00356180 /* CloudViewController.swift */; };
+		9876A51526B71CF500356180 /* EnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876A51426B71CF500356180 /* EnvironmentViewController.swift */; };
+		9876A51626B71CF500356180 /* EnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876A51426B71CF500356180 /* EnvironmentViewController.swift */; };
+		9876A51926B71DFD00356180 /* EnvironmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876A51826B71DFD00356180 /* EnvironmentUIView.swift */; };
+		9876A51A26B71DFD00356180 /* EnvironmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876A51826B71DFD00356180 /* EnvironmentUIView.swift */; };
+		9876A51C26B720C200356180 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876A51B26B720C200356180 /* CounterView.swift */; };
+		9876A51D26B720C200356180 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876A51B26B720C200356180 /* CounterView.swift */; };
 		9891253726A45AB9007E1245 /* TagCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891253626A45AB9007E1245 /* TagCloudApp.swift */; };
 		9891253926A45AB9007E1245 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891253826A45AB9007E1245 /* ContentView.swift */; };
 		9891253B26A45ABD007E1245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9891253A26A45ABD007E1245 /* Assets.xcassets */; };
 		9891253E26A45ABD007E1245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9891253D26A45ABD007E1245 /* Preview Assets.xcassets */; };
 		9891254A26A45ABD007E1245 /* TagCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891254926A45ABD007E1245 /* TagCloudTests.swift */; };
 		9891255526A45ABD007E1245 /* TagCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891255426A45ABD007E1245 /* TagCloudUITests.swift */; };
+		9891256426A4619F007E1245 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891256326A4619F007E1245 /* Counter.swift */; };
+		9891256626A47B29007E1245 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891256526A47B29007E1245 /* ProgressView.swift */; };
+		98B8BA2F26B59F4000BCDF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B8BA2E26B59F4000BCDF9B /* Assets.xcassets */; };
+		98B8BA3226B59F4000BCDF9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B8BA3126B59F4000BCDF9B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9876A51126B719EB00356180 /* CloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
+		9876A51426B71CF500356180 /* EnvironmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewController.swift; sourceTree = "<group>"; };
+		9876A51826B71DFD00356180 /* EnvironmentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentUIView.swift; sourceTree = "<group>"; };
+		9876A51B26B720C200356180 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		9891253326A45AB9007E1245 /* TagCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9891253626A45AB9007E1245 /* TagCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudApp.swift; sourceTree = "<group>"; };
 		9891253826A45AB9007E1245 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +67,12 @@
 		9891255426A45ABD007E1245 /* TagCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudUITests.swift; sourceTree = "<group>"; };
 		9891255626A45ABD007E1245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9891256226A45F72007E1245 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9891256326A4619F007E1245 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		9891256526A47B29007E1245 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		98B8BA2826B59F3E00BCDF9B /* TagCloud iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TagCloud iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B8BA2E26B59F4000BCDF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98B8BA3126B59F4000BCDF9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98B8BA3326B59F4000BCDF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +97,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		98B8BA2526B59F3E00BCDF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9876A51726B71DE300356180 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				9876A51126B719EB00356180 /* CloudViewController.swift */,
+				9876A51426B71CF500356180 /* EnvironmentViewController.swift */,
+				9876A51826B71DFD00356180 /* EnvironmentUIView.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		9876A51E26B720D200356180 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				9891256326A4619F007E1245 /* Counter.swift */,
+				9891256526A47B29007E1245 /* ProgressView.swift */,
+				9876A51B26B720C200356180 /* CounterView.swift */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
 		9891252A26A45AB9007E1245 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +134,7 @@
 				9891253526A45AB9007E1245 /* TagCloud */,
 				9891254826A45ABD007E1245 /* TagCloudTests */,
 				9891255326A45ABD007E1245 /* TagCloudUITests */,
+				98B8BA2926B59F3E00BCDF9B /* TagCloud iOS */,
 				9891253426A45AB9007E1245 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +145,7 @@
 				9891253326A45AB9007E1245 /* TagCloud.app */,
 				9891254526A45ABD007E1245 /* TagCloudTests.xctest */,
 				9891255026A45ABD007E1245 /* TagCloudUITests.xctest */,
+				98B8BA2826B59F3E00BCDF9B /* TagCloud iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +159,8 @@
 				9891253F26A45ABD007E1245 /* Info.plist */,
 				9891254026A45ABD007E1245 /* TagCloud.entitlements */,
 				9891253C26A45ABD007E1245 /* Preview Content */,
+				9876A51E26B720D200356180 /* Counter */,
+				9876A51726B71DE300356180 /* Environment */,
 			);
 			path = TagCloud;
 			sourceTree = "<group>";
@@ -132,6 +189,24 @@
 				9891255626A45ABD007E1245 /* Info.plist */,
 			);
 			path = TagCloudUITests;
+			sourceTree = "<group>";
+		};
+		98B8BA2926B59F3E00BCDF9B /* TagCloud iOS */ = {
+			isa = PBXGroup;
+			children = (
+				98B8BA2E26B59F4000BCDF9B /* Assets.xcassets */,
+				98B8BA3326B59F4000BCDF9B /* Info.plist */,
+				98B8BA3026B59F4000BCDF9B /* Preview Content */,
+			);
+			path = "TagCloud iOS";
+			sourceTree = "<group>";
+		};
+		98B8BA3026B59F4000BCDF9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98B8BA3126B59F4000BCDF9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +265,23 @@
 			productReference = 9891255026A45ABD007E1245 /* TagCloudUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		98B8BA2726B59F3E00BCDF9B /* TagCloud iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B8BA3626B59F4000BCDF9B /* Build configuration list for PBXNativeTarget "TagCloud iOS" */;
+			buildPhases = (
+				98B8BA2426B59F3E00BCDF9B /* Sources */,
+				98B8BA2526B59F3E00BCDF9B /* Frameworks */,
+				98B8BA2626B59F3E00BCDF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TagCloud iOS";
+			productName = "TagCloud iOS";
+			productReference = 98B8BA2826B59F3E00BCDF9B /* TagCloud iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +302,9 @@
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 9891253226A45AB9007E1245;
 					};
+					98B8BA2726B59F3E00BCDF9B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 				};
 			};
 			buildConfigurationList = 9891252E26A45AB9007E1245 /* Build configuration list for PBXProject "TagCloud" */;
@@ -228,6 +323,7 @@
 				9891253226A45AB9007E1245 /* TagCloud */,
 				9891254426A45ABD007E1245 /* TagCloudTests */,
 				9891254F26A45ABD007E1245 /* TagCloudUITests */,
+				98B8BA2726B59F3E00BCDF9B /* TagCloud iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +352,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		98B8BA2626B59F3E00BCDF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B8BA3226B59F4000BCDF9B /* Preview Assets.xcassets in Resources */,
+				98B8BA2F26B59F4000BCDF9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,6 +370,12 @@
 			files = (
 				9891253926A45AB9007E1245 /* ContentView.swift in Sources */,
 				9891253726A45AB9007E1245 /* TagCloudApp.swift in Sources */,
+				9876A51926B71DFD00356180 /* EnvironmentUIView.swift in Sources */,
+				9876A51526B71CF500356180 /* EnvironmentViewController.swift in Sources */,
+				9876A51226B719EB00356180 /* CloudViewController.swift in Sources */,
+				9891256626A47B29007E1245 /* ProgressView.swift in Sources */,
+				9891256426A4619F007E1245 /* Counter.swift in Sources */,
+				9876A51C26B720C200356180 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +392,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9891255526A45ABD007E1245 /* TagCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8BA2426B59F3E00BCDF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9876A50E26B68CA100356180 /* TagCloudApp.swift in Sources */,
+				9876A50D26B68BDD00356180 /* ProgressView.swift in Sources */,
+				9876A51A26B71DFD00356180 /* EnvironmentUIView.swift in Sources */,
+				9876A51626B71CF500356180 /* EnvironmentViewController.swift in Sources */,
+				9876A51326B71A4A00356180 /* CloudViewController.swift in Sources */,
+				9876A50B26B68B5900356180 /* ContentView.swift in Sources */,
+				9876A50C26B68BDD00356180 /* Counter.swift in Sources */,
+				9876A51D26B720C200356180 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +484,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -412,6 +539,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -547,6 +675,53 @@
 			};
 			name = Release;
 		};
+		98B8BA3426B59F4000BCDF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TagCloud iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = HLZGGTQFN5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TagCloud iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irusland.TagCloud-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98B8BA3526B59F4000BCDF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TagCloud iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = HLZGGTQFN5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TagCloud iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irusland.TagCloud-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,6 +757,15 @@
 			buildConfigurations = (
 				9891256026A45ABD007E1245 /* Debug */,
 				9891256126A45ABD007E1245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B8BA3626B59F4000BCDF9B /* Build configuration list for PBXNativeTarget "TagCloud iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B8BA3426B59F4000BCDF9B /* Debug */,
+				98B8BA3526B59F4000BCDF9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

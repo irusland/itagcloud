@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TagCloud iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TagCloud.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9891253226A45AB9007E1245</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9891254426A45ABD007E1245</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9891254F26A45ABD007E1245</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

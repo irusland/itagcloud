@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import TagCloud
+//@testable import TagCloud
 
 class TagCloudTests: XCTestCase {
 
